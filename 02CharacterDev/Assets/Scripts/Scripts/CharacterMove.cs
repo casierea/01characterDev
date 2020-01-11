@@ -12,7 +12,7 @@ public class CharacterMove : MonoBehaviour
 
     public Vector3 position;
     
-    public float Jump = 5f;
+    public float JumpSpeed = 5f;
     
     // Start is called before the first frame update
     void Start()
@@ -28,8 +28,8 @@ public class CharacterMove : MonoBehaviour
         {
             position.Set(MoveSpeed * Input.GetAxis("Horizontal"), 0, MoveSpeed * Input.GetAxis("Vertical"));
             position = transform.TransformDirection(position);
+           
         }
-
         position.y -= Gravity * Time.deltaTime;
         Controller.Move(position * Time.deltaTime);
     }

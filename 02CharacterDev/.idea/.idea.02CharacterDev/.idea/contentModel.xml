@@ -13,6 +13,8 @@
           </e>
           <e p="Scripts" t="Include">
             <e p="CharacterMove.cs" t="Include" />
+            <e p="FloatdataValue.cs" t="Include" />
+            <e p="Grounded.cs" t="Include" />
           </e>
         </e>
       </e>
