@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Jan15NameID.unity
+- path: Assets/Scenes/Jan17TriggerEvents.unity
   isLoaded: 1
   isActive: 1
