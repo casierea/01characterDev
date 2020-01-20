@@ -18,8 +18,11 @@
           </e>
           <e p="Scripts" t="Include">
             <e p="AnimaController.cs" t="Include" />
+            <e p="CharacterControl.cs" t="Include" />
             <e p="CharacterMove.cs" t="Include" />
             <e p="FloatdataValue.cs" t="Include" />
+            <e p="GameAction.cs" t="Include" />
+            <e p="GameActionHandler.cs" t="Include" />
             <e p="Grounded.cs" t="Include" />
           </e>
         </e>

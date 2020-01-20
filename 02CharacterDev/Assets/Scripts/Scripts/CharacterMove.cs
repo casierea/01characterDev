@@ -4,7 +4,7 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class CharacterMove : MonoBehaviour
 {
-    private CharacterController Controller;
+    private CharacterController controller;
 
     private float Gravity = 9.81f;
     public float MoveSpeed = 3.14f;
@@ -17,20 +17,20 @@ public class CharacterMove : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Controller = GetComponent<CharacterController>();
+        controller = GetComponent<CharacterController>();
         
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Controller.isGrounded)
+        if (controller.isGrounded)
         {
             position.Set(MoveSpeed * Input.GetAxis("Horizontal"), 0, MoveSpeed * Input.GetAxis("Vertical"));
             position = transform.TransformDirection(position);
            
         }
         position.y -= Gravity * Time.deltaTime;
-        Controller.Move(position * Time.deltaTime);
+        controller.Move(position * Time.deltaTime);
     }
 }
