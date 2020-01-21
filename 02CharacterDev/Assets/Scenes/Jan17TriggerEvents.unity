@@ -440,9 +440,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Height: 10
   Radius: 2
-  offset: 0.3
-  Gravity: 5
+  Offset: 0.3
   action: {fileID: 0}
+  Velocity: 4
+  matieral: {fileID: 2100000, guid: c17847c9446eecc4a81c8e3df0004412, type: 2}
 --- !u!1 &1537410126
 GameObject:
   m_ObjectHideFlags: 0

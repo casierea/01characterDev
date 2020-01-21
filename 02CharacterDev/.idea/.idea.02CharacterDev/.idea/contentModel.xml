@@ -24,6 +24,7 @@
             <e p="GameAction.cs" t="Include" />
             <e p="GameActionHandler.cs" t="Include" />
             <e p="Grounded.cs" t="Include" />
+            <e p="ListObj.cs" t="Include" />
           </e>
         </e>
       </e>

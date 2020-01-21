@@ -36,5 +36,10 @@ public class CharacterControl : MonoBehaviour
         controller.stepOffset = Offset;
     }
 
+    private void Center()
+    {
+        controller.center = new Vector3(0, 1, 0); 
+    }
+   
    
 }
