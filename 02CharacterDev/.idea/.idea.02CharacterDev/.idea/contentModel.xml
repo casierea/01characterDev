@@ -21,6 +21,7 @@
           <e p="Scripts" t="Include">
             <e p="ActionCalls.cs" t="Include" />
             <e p="AnimaController.cs" t="Include" />
+            <e p="AnimSetTrigger.cs" t="Include" />
             <e p="CharacterControl.cs" t="Include" />
             <e p="CharacterMove.cs" t="Include" />
             <e p="DestroyEvent.cs" t="Include" />

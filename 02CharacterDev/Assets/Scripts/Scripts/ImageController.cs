@@ -6,21 +6,21 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Image))]
 public class ImageController : MonoBehaviour
 {
-   private Image imageComponent;
+   private Image _imageComponent;
 
    private void Start()
    {
-      imageComponent.GetComponent<Image>();
+      _imageComponent.GetComponent<Image>();
      
    }
 
    public void UpdateImageComponent(float amount)
    {
-      imageComponent.fillAmount += amount;
+      _imageComponent.fillAmount += amount;
    }
 
    public void UpdateImageComponent(FloatdataValue dataobj)
    {
-      imageComponent.fillAmount = dataobj.Value;
+      _imageComponent.fillAmount = dataobj.Value;
    }
 }
