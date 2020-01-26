@@ -6,14 +6,15 @@ public class BoolAnim : MonoBehaviour
 {
     //online Unity Forum Help
     
-    public int cubeToKnock = 3; // the number of objects (cube) that have to touch the trigger to play the animation
-    public Animator animatorLift; //The animator component that holds the animation I want to play
+    
+    public int cubesToTrigger = 3; // the number of objects (cube) that have to touch the trigger to play the animation
+    public Animator anim; //The animator component that holds the animation I want to play
     private int COF = 0; // the variable that counts the objects (cubes) that touch the trigger
          
  
     void Start () {
-        animatorLift.enabled = true;
-        animatorLift.SetBool("levelFinished", false); //when you have animations in your game, there's a tab next to "Scene", "Game" and "Asset Store" named "Animator". There
+        anim.enabled = true;
+        anim.SetBool("levelFinished", false); //when you have animations in your game, there's a tab next to "Scene", "Game" and "Asset Store" named "Animator". There
     }
  
     void OnTriggerEnter (Collider Cube) {
@@ -23,12 +24,12 @@ public class BoolAnim : MonoBehaviour
     }
      
     void AnimStart() {
-        animatorLift.SetBool("levelFinished", true); // a function that sets the value of the boolean you created in you animator window to true when it's called
+        anim.SetBool("levelFinished", true); // a function that sets the value of the boolean you created in you animator window to true when it's called
     }
   
  
     void Update () {
-        if (COF == cubeToKnock) {
+        if (COF == cubesToTrigger) {
             Invoke ("AnimStart", 1.5f);  // call the function with a delay of 1 second and a half
         }
     }

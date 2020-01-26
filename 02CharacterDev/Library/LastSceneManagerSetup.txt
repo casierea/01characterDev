@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Jan25_Scripts.unity
+- path: Assets/Scenes/AnimationPracticeCube1_26_02.unity
   isLoaded: 1
   isActive: 1
