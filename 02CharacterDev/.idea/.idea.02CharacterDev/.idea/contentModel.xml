@@ -22,6 +22,7 @@
             <e p="ActionCalls.cs" t="Include" />
             <e p="AnimaController.cs" t="Include" />
             <e p="AnimSetTrigger.cs" t="Include" />
+            <e p="BoolAnim.cs" t="Include" />
             <e p="CharacterControl.cs" t="Include" />
             <e p="CharacterMove.cs" t="Include" />
             <e p="DestroyEvent.cs" t="Include" />
@@ -34,7 +35,10 @@
             <e p="ListObj.cs" t="Include" />
             <e p="MouseEvents.cs" t="Include" />
             <e p="ObjectCollection.cs" t="Include" />
+            <e p="SelectRandomObj.cs" t="Include" />
+            <e p="TriggerAnimation.cs" t="Include" />
             <e p="UpdateEvent.cs" t="Include" />
+            <e p="WaitForTime.cs" t="Include" />
           </e>
         </e>
       </e>
