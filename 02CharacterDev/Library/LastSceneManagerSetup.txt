@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< Updated upstream
 - path: Assets/Scenes/AnimationPracticeCube1_26_02.unity
+=======
+- path: Assets/Scenes/AnimationInClass_Jan23.unity
+>>>>>>> Stashed changes
   isLoaded: 1
   isActive: 1
