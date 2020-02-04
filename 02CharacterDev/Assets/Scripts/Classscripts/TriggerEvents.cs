@@ -6,7 +6,7 @@ using UnityEngine.Events;
 public class TriggerEvents : MonoBehaviour
 {
 
-   public UnityEvent TriggerEnterEvent, TriggerExitEvent;
+   public UnityEvent TriggerEnterEvent, TriggerExitEvent, TriggerStayEvent;
 
    private void OnTriggerEnter(Collider other)
    {
@@ -18,5 +18,10 @@ public class TriggerEvents : MonoBehaviour
    {
       TriggerExitEvent.Invoke();
       Debug.Log("Exit");
+   }
+
+   private void OnTriggerStay(Collider other)
+   {
+      TriggerStayEvent.Invoke();
    }
 }
