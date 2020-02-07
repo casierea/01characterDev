@@ -9,9 +9,6 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="CharacterMove" t="Include">
-            <e p="CharacterControl.cs" t="Include" />
-            <e p="CharacterMove.cs" t="Include" />
-            <e p="Movement.cs" t="Include" />
             <e p="PlayerMovement.cs" t="Include" />
           </e>
           <e p="Classscripts" t="Include">
@@ -36,11 +33,16 @@
             <e p="FloatdataValue.cs" t="Include" />
             <e p="GameAction.cs" t="Include" />
             <e p="GameActionHandler.cs" t="Include" />
-            <e p="Grounded.cs" t="Include" />
             <e p="ImageController.cs" t="Include" />
             <e p="ListObj.cs" t="Include" />
             <e p="MouseEvents.cs" t="Include" />
             <e p="ObjectCollection.cs" t="Include" />
+            <e p="Practice" t="Include">
+              <e p="CharacterControl.cs" t="Include" />
+              <e p="CharacterMove.cs" t="Include" />
+              <e p="Grounded.cs" t="Include" />
+              <e p="Movement.cs" t="Include" />
+            </e>
             <e p="SelectRandomObj.cs" t="Include" />
             <e p="TriggerAnimation.cs" t="Include" />
             <e p="UpdateEvent.cs" t="Include" />

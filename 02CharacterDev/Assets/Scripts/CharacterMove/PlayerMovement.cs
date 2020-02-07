@@ -23,7 +23,13 @@ public class PlayerMovement : MonoBehaviour
         position.x = MoveSpeed*Input.GetAxis("Horizontal");
         position.z = MoveSpeed*Input.GetAxis("Vertical");
         position.y -= Gravity;
-        
+
+        if (controller.isGrounded)
+        {
+            position.y = 0;
+
+        }
+
         if(Input.GetButtonDown("Jump"))
         {
             position.y = JumpSpeed;
