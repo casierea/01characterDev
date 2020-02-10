@@ -50,6 +50,7 @@
             <e p="WaitForTime.cs" t="Include" />
           </e>
         </e>
+        <e p="WaitAndDestroy.cs" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
