@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class DamageOnCollision : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public FloatdataValue Value;
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter(Collider other)
     {
-        
+        //if (other.gameObject.GetComponent<RedoObjHealth>()) //need a obj health script of some sort
+        //{
+        //    other.GetComponent<RedoObjHealth>().DamageHealth(DamageOnCollision.Value);
+        //}
+
+       // if (other.gameObject.GetComponent<MultiObjHealth>())
+       // {
+       //     other.GetComponent<MultiObjHealth>().DamageHealth(DamageOnCollision.Value);
+       // }
     }
 }

@@ -15,6 +15,7 @@
             <e p="AnimBehaviour.cs" t="Include" />
             <e p="BooldataObj.cs" t="Include" />
             <e p="CheckBooldata.cs" t="Include" />
+            <e p="DataStorage.cs" t="Include" />
             <e p="DoWork.cs" t="Include" />
             <e p="MatchID.cs" t="Include" />
             <e p="Mover.cs" t="Include" />
@@ -27,6 +28,7 @@
             <e p="AnimaController.cs" t="Include" />
             <e p="AnimSetTrigger.cs" t="Include" />
             <e p="BoolAnim.cs" t="Include" />
+            <e p="DamageOnCollision.cs" t="Include" />
             <e p="Debugger.cs" t="Include" />
             <e p="DestroyEvent.cs" t="Include" />
             <e p="FloatData.cs" t="Include" />
@@ -47,10 +49,10 @@
             <e p="Shoot.cs" t="Include" />
             <e p="TriggerAnimation.cs" t="Include" />
             <e p="UpdateEvent.cs" t="Include" />
+            <e p="WaitAndDestroy.cs" t="Include" />
             <e p="WaitForTime.cs" t="Include" />
           </e>
         </e>
-        <e p="WaitAndDestroy.cs" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
