@@ -42,8 +42,8 @@ MonoBehaviour:
     y: 747
     width: 1920
     height: 200
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 100, y: 124}
+  m_MaxSize: {x: 4000, y: 4024}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -73,7 +73,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 572}
   m_MaxSize: {x: 22012, y: 14048}
   vertical: 1
-  controlID: 108
+  controlID: 159
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 448}
   m_MaxSize: {x: 22012, y: 10024}
   vertical: 0
-  controlID: 109
+  controlID: 160
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -192,7 +192,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 448}
   m_MaxSize: {x: 4002, y: 8048}
   vertical: 1
-  controlID: 143
+  controlID: 161
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -378,9 +378,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 2a2f0000
-      m_LastClickedID: 12074
-      m_ExpandedIDs: a0faffff2a2f0000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: d2fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -488,23 +488,23 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8c2f0000
-    m_LastClickedID: 12172
-    m_ExpandedIDs: 000000002e2c00008c2c0000022d00006e2f0000702f0000722f000000ca9a3b
+    m_SelectedIDs: fc090000
+    m_LastClickedID: 2556
+    m_ExpandedIDs: 00000000b2090000140a00008a0a0000ec290000ee290000f029000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Scripts
-      m_OriginalName: Scripts
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 11522
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
@@ -518,7 +518,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002e2c00008c2c00006e2f0000702f0000722f0000
+    m_ExpandedIDs: 00000000b2090000140a00008a0a0000ec290000ee290000f0290000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -669,8 +669,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
-      type: 0}
+    m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2

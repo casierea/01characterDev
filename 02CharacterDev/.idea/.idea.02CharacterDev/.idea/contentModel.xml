@@ -44,6 +44,7 @@
               <e p="Movement.cs" t="Include" />
             </e>
             <e p="SelectRandomObj.cs" t="Include" />
+            <e p="Shoot.cs" t="Include" />
             <e p="TriggerAnimation.cs" t="Include" />
             <e p="UpdateEvent.cs" t="Include" />
             <e p="WaitForTime.cs" t="Include" />
