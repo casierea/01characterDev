@@ -24,8 +24,9 @@
             <e p="TriggerEvents.cs" t="Include" />
           </e>
           <e p="Feb11" t="Include">
-            <e p="Health.cs" t="Include" />
+            <e p="BehaviourID.cs" t="Include" />
             <e p="IntData.cs" t="Include" />
+            <e p="MathBehaviour.cs" t="Include" />
           </e>
           <e p="LightChanger.cs" t="Include" />
           <e p="Scripts" t="Include">

@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7afd4fdf18de6f04b9f29c1dd549bd19, type: 3}
   m_Name: Damager
   m_EditorClassIdentifier: 
-  Value: 0
+  Value: 0.1
