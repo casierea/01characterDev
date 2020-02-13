@@ -194,8 +194,10 @@ GameObject:
   - component: {fileID: 648683626}
   - component: {fileID: 648683625}
   - component: {fileID: 648683624}
+  - component: {fileID: 648683630}
+  - component: {fileID: 648683629}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: PowerUPSphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -289,6 +291,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &648683629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 648683623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d3ac9aa7a44446438eacde326dcff61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameIDObj: {fileID: 0}
+--- !u!114 &648683630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 648683623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d3ac9aa7a44446438eacde326dcff61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameIDObj: {fileID: 0}
 --- !u!1 &1149857698
 GameObject:
   m_ObjectHideFlags: 0
@@ -400,35 +428,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1868857867}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b12fd535d9d2772448dae8cb142ac55c, type: 3}
+  m_Script: {fileID: 11500000, guid: 7a418676ac2d73f4985b23084920f294, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TriggerEnterEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: 6140235e9ac471f44abcbe4306862528, type: 2}
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  TriggerExitEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  TriggerStayEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
+  nameIds:
+  - {fileID: 11400000, guid: b7ecc388e3a254e459863cc8a268a76c, type: 2}
+  - {fileID: 11400000, guid: 2416cfef24e25c24fb1d51d1c21e1c4c, type: 2}
+  Doworks:
+  - {fileID: 11400000, guid: 709539e059a0a6742b43358df50bd3df, type: 2}
 --- !u!65 &1868857869
 BoxCollider:
   m_ObjectHideFlags: 0
