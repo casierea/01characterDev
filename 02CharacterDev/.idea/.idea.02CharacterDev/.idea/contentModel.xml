@@ -17,6 +17,7 @@
           <e p="CharacterMove" t="Include">
             <e p="ControlCharacter.cs" t="Include" />
             <e p="PlayerMovement.cs" t="Include" />
+            <e p="PlayMove02.cs" t="Include" />
           </e>
           <e p="Classscripts" t="Include">
             <e p="AnimBehaviour.cs" t="Include" />
