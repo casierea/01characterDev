@@ -13,7 +13,7 @@ public class CharacterControl : MonoBehaviour
     public float Radius = 2f;
     public float Offset = .3f;
     public float Velocity = 4f;
-    public Material matieral;
+    public Material color;
         
     private void Start()
     {

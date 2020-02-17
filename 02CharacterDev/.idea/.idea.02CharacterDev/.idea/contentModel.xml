@@ -15,6 +15,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="CharacterMove" t="Include">
+            <e p="BasicCharControl.cs" t="Include" />
             <e p="ControlCharacter.cs" t="Include" />
             <e p="PlayerMovement.cs" t="Include" />
             <e p="PlayMove02.cs" t="Include" />
