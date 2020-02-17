@@ -42,6 +42,7 @@
             <e p="AnimaController.cs" t="Include" />
             <e p="AnimSetTrigger.cs" t="Include" />
             <e p="BoolAnim.cs" t="Include" />
+            <e p="CameraFollow.cs" t="Include" />
             <e p="DamageOnCollision.cs" t="Include" />
             <e p="Debugger.cs" t="Include" />
             <e p="DestroyEvent.cs" t="Include" />
