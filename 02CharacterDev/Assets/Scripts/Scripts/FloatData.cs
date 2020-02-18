@@ -1,44 +1,58 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
 using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.Serialization;
+using Object = UnityEngine.Object;
 
+//Made By Anthony Romrell
 
-[CreateAssetMenu]
-public class FloatData : ScriptableObject
+[ExecuteInEditMode]
+[CreateAssetMenu(menuName = "Single Variables/FloatData")]
+public class FloatData : NameID
 {
-    public float value = 1f;
-    public float maxValue = 1f;
+    [FormerlySerializedAs("Value")] public float value;
+
+    
+    public void SetValue (float amount)
+    {
+        value = amount;
+    }
+
     public void UpdateValue(float amount)
     {
         value += amount;
     }
 
-    public void ChangeValue(float amount)
+    public void IncrementValue()
     {
-        value = amount;
+        value ++;
     }
-    public void UpdateValueLimitZero(float amount)
+    
+    public void UpdateValue(FloatData data)
     {
-        if (value < 0)
+        var newData = data as FloatData;
+        if (newData != null) value += newData.value;
+    }
+
+    public void SetValue(FloatData data)
+    {
+        var newData = data as FloatData;
+        if (newData != null) value = newData.value;
+    }
+    
+    public void CheckMinValue(float minValue)
+    {
+        if (value <= minValue)
         {
-            value = 0;
-        }
-        else
-        {
-            UpdateValue(amount);
+            value = minValue;
         }
     }
 
-    public void UpdateValueLimitZeroAndMaxValue(float amount)
+    public void CheckMaxValue(float maxValue)
     {
-        if (value < maxValue)
-        {
-            UpdateValue(amount);
-        }
-        else
+        if (value >= maxValue)
         {
             value = maxValue;
         }
-        UpdateValueLimitZero(amount);
     }
 }
