@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/HealthFunction_Feb13.unity
+- path: Assets/Scenes/Healthbar.unity
   isLoaded: 1
   isActive: 1
