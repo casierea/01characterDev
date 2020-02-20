@@ -5,6 +5,7 @@ public class DataStorage : ScriptableObject
 {
     
     //Anthony's script
+    // any SO data is stored here. 
     
     public ScriptableObject Data;
 
