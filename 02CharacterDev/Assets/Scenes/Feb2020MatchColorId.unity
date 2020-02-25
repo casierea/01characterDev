@@ -274,6 +274,7 @@ GameObject:
   - component: {fileID: 1424984919}
   - component: {fileID: 1424984918}
   - component: {fileID: 1424984917}
+  - component: {fileID: 1424984920}
   m_Layer: 0
   m_Name: CircleRedCircle
   m_TagString: Untagged
@@ -356,6 +357,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1424984920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424984916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3baa0e7ae460324b9023cbae2ff84ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorDataObj: {fileID: 0}
+  startEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &2085292077
 GameObject:
   m_ObjectHideFlags: 0
@@ -368,10 +387,10 @@ GameObject:
   - component: {fileID: 2085292084}
   - component: {fileID: 2085292083}
   - component: {fileID: 2085292082}
-  - component: {fileID: 2085292081}
-  - component: {fileID: 2085292080}
   - component: {fileID: 2085292079}
   - component: {fileID: 2085292078}
+  - component: {fileID: 2085292081}
+  - component: {fileID: 2085292080}
   m_Layer: 0
   m_Name: RedTriangle
   m_TagString: Untagged
@@ -417,13 +436,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 2085292077}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a418676ac2d73f4985b23084920f294, type: 3}
+  m_Script: {fileID: 11500000, guid: a3baa0e7ae460324b9023cbae2ff84ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameIds:
-  - {fileID: 0}
-  Doworks:
-  - {fileID: 0}
+  colorDataObj: {fileID: 0}
+  startEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!114 &2085292081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -433,13 +454,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2085292077}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a418676ac2d73f4985b23084920f294, type: 3}
+  m_Script: {fileID: 11500000, guid: 3ce68cd439f10e44d820b516f44aa0d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameIds:
-  - {fileID: 0}
-  Doworks:
-  - {fileID: 0}
+  workSystemManagerObj: {fileID: 11400000, guid: 6db89e2d3ccb75d4c9bea2cb7fecb0a6,
+    type: 2}
 --- !u!65 &2085292082
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -531,7 +550,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2085292077}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.58, y: -0.20759942, z: 0}
+  m_LocalPosition: {x: 2.002, y: -0.369, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

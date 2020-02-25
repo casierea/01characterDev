@@ -27,6 +27,12 @@
           <e p="ColorData.cs" t="Include" />
           <e p="DraggableObject.cs" t="Include" />
         </e>
+        <e p="Feb25" t="Include">
+          <e p="ComponenetControlls" t="Include">
+            <e p="SpriteRendererBehaviour.cs" t="Include" />
+          </e>
+          <e p="SpriteRendererController.cs" t="Include" />
+        </e>
         <e p="Scripts" t="Include">
           <e p="Ai" t="Include">
             <e p="BasicAi.cs" t="Include" />
