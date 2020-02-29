@@ -24,6 +24,7 @@ public class MatchIdBehaviour : MonoBehaviour
          if (otherIdObj == obj.nameIdObj)
          {
             obj.worksystemObj.Work();
+            obj.workEvent.Invoke();
          }
       }
    }
