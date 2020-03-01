@@ -37,6 +37,7 @@
           <e p="Ai" t="Include">
             <e p="BasicAi.cs" t="Include" />
           </e>
+          <e p="AiPatrolH.cs" t="Include" />
           <e p="CharacterMove" t="Include">
             <e p="BasicCharControl.cs" t="Include" />
             <e p="ControlCharacter.cs" t="Include" />
@@ -60,8 +61,10 @@
             <e p="IntData.cs" t="Include" />
           </e>
           <e p="HorizontalPlatform.cs" t="Include" />
+          <e p="imageupdate.cs" t="Include" />
           <e p="LightChanger.cs" t="Include" />
           <e p="Patrol.cs" t="Include" />
+          <e p="PlayerHealthScript.cs" t="Include" />
           <e p="Scripts" t="Include">
             <e p="ActionCalls.cs" t="Include" />
             <e p="AnimaController.cs" t="Include" />
@@ -72,6 +75,7 @@
             <e p="Debugger.cs" t="Include" />
             <e p="DestroyEvent.cs" t="Include" />
             <e p="FloatData.cs" t="Include" />
+            <e p="FloatData1.cs" t="Include" />
             <e p="FloatdataValue.cs" t="Include" />
             <e p="GameAction.cs" t="Include" />
             <e p="GameActionHandler.cs" t="Include" />
@@ -93,6 +97,7 @@
             <e p="WaitForTime.cs" t="Include" />
           </e>
           <e p="UseForce.cs" t="Include" />
+          <e p="ValueManager.cs" t="Include" />
           <e p="Vector3Data.cs" t="Include" />
         </e>
       </e>

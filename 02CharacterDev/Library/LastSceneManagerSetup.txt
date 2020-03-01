@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Feb2020MatchColorId.unity
+- path: Assets/Scenes/patrolpoitns.unity
   isLoaded: 1
   isActive: 1
