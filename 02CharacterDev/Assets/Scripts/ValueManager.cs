@@ -5,11 +5,11 @@ using UnityEngine;
 
 public class ValueManager : MonoBehaviour
 {
-    public FloatData1 Total;
+    public FloatData Total;
 
     public void ChangeSparkleTotal(float delta)
     {
-        Total.Value += delta;
+        Total.value += delta;
     }
     
     

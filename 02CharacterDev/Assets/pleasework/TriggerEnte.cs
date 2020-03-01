@@ -1,0 +1,34 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Events;
+
+public class TriggerEnte : MonoBehaviour
+{
+    private void Awake()
+    {
+        GetComponent<Collider>().isTrigger = true;
+    }
+
+    public UnityEvent EnableEvent;
+    public UnityEvent EnterEvent;
+    public UnityEvent ExitEvent;
+
+    void OnEnable()
+    {
+        //Enable.Invoke();
+        Debug.Log("EnableTrigger");
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        EnterEvent.Invoke();
+        Debug.Log("EnterTrigger");
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        ExitEvent.Invoke();
+        //Destroy(gameObject);
+    }
+}

@@ -33,6 +33,9 @@
           </e>
           <e p="SpriteRendererController.cs" t="Include" />
         </e>
+        <e p="pleasework" t="Include">
+          <e p="TriggerEnte.cs" t="Include" />
+        </e>
         <e p="Scripts" t="Include">
           <e p="Ai" t="Include">
             <e p="BasicAi.cs" t="Include" />
@@ -61,7 +64,6 @@
             <e p="IntData.cs" t="Include" />
           </e>
           <e p="HorizontalPlatform.cs" t="Include" />
-          <e p="imageupdate.cs" t="Include" />
           <e p="LightChanger.cs" t="Include" />
           <e p="Patrol.cs" t="Include" />
           <e p="PlayerHealthScript.cs" t="Include" />
@@ -93,6 +95,7 @@
             <e p="Shoot.cs" t="Include" />
             <e p="TriggerAnimation.cs" t="Include" />
             <e p="UpdateEvent.cs" t="Include" />
+            <e p="UpdateValue.cs" t="Include" />
             <e p="WaitAndDestroy.cs" t="Include" />
             <e p="WaitForTime.cs" t="Include" />
           </e>
