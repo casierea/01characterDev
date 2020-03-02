@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/patrolpoitns.unity
+- path: Assets/Scenes/updatepowerup.unity
   isLoaded: 1
   isActive: 1
