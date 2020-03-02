@@ -64,6 +64,7 @@
             <e p="IntData.cs" t="Include" />
           </e>
           <e p="HorizontalPlatform.cs" t="Include" />
+          <e p="LightBehaviour.cs" t="Include" />
           <e p="LightChanger.cs" t="Include" />
           <e p="Patrol.cs" t="Include" />
           <e p="PlayerHealthScript.cs" t="Include" />
