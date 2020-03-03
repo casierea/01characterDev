@@ -105,6 +105,7 @@
           <e p="Vector3Data.cs" t="Include" />
         </e>
         <e p="StringListData.cs" t="Include" />
+        <e p="TeleportBehaviour.cs" t="Include" />
         <e p="TextBehaviour.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />

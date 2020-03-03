@@ -7,7 +7,6 @@ using UnityEngine.UI;
 
 public class TextBehaviour : MonoBehaviour
 {
-    
     private Text textObj;
 
     public StringListData stringListDataObj;
