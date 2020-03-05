@@ -33,6 +33,10 @@
           </e>
           <e p="SpriteRendererController.cs" t="Include" />
         </e>
+        <e p="FloatData1" t="Include">
+          <e p="string02.cs" t="Include" />
+          <e p="TextB2.cs" t="Include" />
+        </e>
         <e p="pleasework" t="Include">
           <e p="TriggerEnte.cs" t="Include" />
         </e>

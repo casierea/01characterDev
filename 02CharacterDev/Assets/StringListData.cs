@@ -9,12 +9,12 @@ public class StringListData : ScriptableObject
     public int currentLineNumber;
     //whatever this is in the editot, it will calll that line
 
-    public string ReturnCurrentLine()
+    public string ReturnCurrentLine()   //being called constantly. being called by text obj.
     {
         return stringListObj[currentLineNumber];
     }
 
-    public void LineNumber()
+    public void LineNumber()  //being called by button
     {
         if (currentLineNumber < stringListObj.Count-1)
         {
