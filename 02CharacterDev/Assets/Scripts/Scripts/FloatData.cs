@@ -8,7 +8,7 @@ using Object = UnityEngine.Object;
 
 [ExecuteInEditMode]
 [CreateAssetMenu(menuName = "Single Variables/FloatData")]
-public class FloatData : NameID
+public class FloatData : NameId
 {
     [FormerlySerializedAs("Value")] public float value;
 

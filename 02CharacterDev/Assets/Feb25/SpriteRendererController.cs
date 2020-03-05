@@ -1,14 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-[CreateAssetMenu]
-public class SpriteRendererController : ScriptableObject
-{
-   [HideInInspector]
-   public SpriteRenderer spriteRenderObj;
+﻿using UnityEngine;
 
-   public void StoreSpriteRendere(SpriteRenderer spriteRenderer)
-   {
-      spriteRenderObj = spriteRenderer;
-   }
+[CreateAssetMenu]
+public class SpriteRenderController : ScriptableObject
+{
+    [HideInInspector]
+    public SpriteRenderer spriteRendererObj;
+
+    public void StoreSpriteRender(SpriteRenderer spriteRenderer)
+    {
+        spriteRendererObj = spriteRenderer;
+    }
 }

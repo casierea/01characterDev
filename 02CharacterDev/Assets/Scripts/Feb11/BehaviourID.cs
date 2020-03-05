@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class BehaviourID : MonoBehaviour
 {
-   public NameID nameIDObj;
+   public NameId nameIDObj;
 }

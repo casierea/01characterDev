@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class MatchIDBehaviour : MonoBehaviour
 {
-    public List<NameID> nameIds;
-    private NameID otherIDObj;
+    public List<NameId> nameIds;
+    private NameId otherIDObj;
     public List<DowWorkSO> Doworks;
     private void OnTriggerEnter(Collider other)
     {

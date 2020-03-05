@@ -1,23 +1,18 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.Serialization;
+
 [CreateAssetMenu(menuName = "Single Variables/ColorData")]
-public class ColorData : NameID
+public class ColorData : NameId
 {
-    
-    
-    //not being identified by name, being identifed by object
-    //if this is obj is this obj then do this job
-    
     public Color value = Color.blue;
 
-    public void ChangeSpriteRendererColor(SpriteRenderer spriteRendererObj)
+    public void ChangeSpriteRenderColor(SpriteRenderer spriteRendererOjb)
     {
-        spriteRendererObj.color = value;
+        spriteRendererOjb.color = value;
     }
-    
-    public void ChangeSpriteRendererColor(SpriteRendererController spriteRendererController)
+	
+    public void ChangeSpriteRenderColor(SpriteRenderController spriteRendererController)
     {
-        spriteRendererController.spriteRenderObj.color = value;
+        spriteRendererController.spriteRendererObj.color = value;
     }
 }

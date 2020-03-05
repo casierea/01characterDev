@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class MatchID : MonoBehaviour
 {
-    public List<NameID> nameIDList;
+    public List<NameId> nameIDList;
 
     private void OnTriggerEnter(Collider other)
     {
