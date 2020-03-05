@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 [CreateAssetMenu]
 public class string02 : ScriptableObject
-{
+{     //exxperiment for StringDataList in class. 
     public List<string> stringListObj;
 
     public int currentLineNumber;

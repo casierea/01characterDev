@@ -1,34 +1,32 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(Text))]
 
 public class TextB2: MonoBehaviour
-{ /// <summary>
-  /// expeimentinclass
-  /// </summary>
-    private Text textObj;
+{
+     /// <summary> experiment
 
-    public StringListData stringListDataObj;
+     public UnityEvent awakeEvent;
+     private Text textObj;
 
-//awake is before start.
-    void Awake()
-    {
-        textObj = GetComponent<Text>();
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        //replace update with an event system   
-        textObj.text = stringListDataObj.ReturnCurrentLine(); // this will constantly spit out current numbers. We like how short it is.
-     
-    }
+     private void Awake()
+     {
+          textObj = GetComponent<Text>();
+          awakeEvent.Invoke();  //update itself upon awake 
+     }
+
+     public void UpdateText(StringListData stringListDataObj)
+     {
+          textObj.text = stringListDataObj.ReturnCurrentLine();
+     }
+     public void UpdateText(IntData intDataObj)
+     {
+          //textObj.text = intDataObj.value / ToString();
+     }
 }
