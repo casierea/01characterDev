@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Words.unity
+- path: Assets/Scenes/MatchColorIdMarch5.unity
   isLoaded: 1
   isActive: 1
