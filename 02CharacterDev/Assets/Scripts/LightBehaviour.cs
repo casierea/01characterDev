@@ -4,17 +4,27 @@ using System.Collections.Generic;
 using UnityEditor.Experimental.UIElements;
 using UnityEngine;
 
-public class lightBehavior : MonoBehaviour
+public class LightBehaviour : MonoBehaviour
 {
-    public FloatData playerSparkleTotal;
+    public FloatData SparkleTotal;
     public int lossRate = 5;
     private Boolean lightStatus = false;
 
     private void Update()
     {
         this.GetComponent<Light>().enabled = lightStatus;
-        this.GetComponent<Light>().intensity = playerSparkleTotal.value;
-        this.GetComponent<Light>().range = playerSparkleTotal.value / 10;
+
+
+        if (lightStatus)
+        {
+            this.GetComponent<Light>().intensity = SparkleTotal.Value;
+            this.GetComponent<Light>().range = SparkleTotal.Value / 10;
+            this.GetComponent<SphereCollider>().radius = SparkleTotal.Value / 10;
+        }
+        else
+        {
+            this.GetComponent<SphereCollider>().radius = 0.5f;
+        }
         if (Input.GetKeyDown(KeyCode.E))
         {
             lightSwitch();
@@ -22,12 +32,12 @@ public class lightBehavior : MonoBehaviour
 
         if (lightStatus == true)
         {
-            playerSparkleTotal.value -= lossRate * Time.deltaTime;
+            SparkleTotal.Value -= lossRate * Time.deltaTime;
         }
     }
     private void lightSwitch()
     {
-        if (playerSparkleTotal.value > 0)
+        if (SparkleTotal.Value > 0)
         {
             lightStatus = !lightStatus;
             this.GetComponent<Light>().enabled = lightStatus;    
