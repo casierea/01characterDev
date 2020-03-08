@@ -17,9 +17,9 @@ public class LightBehaviour : MonoBehaviour
 
         if (lightStatus)
         {
-            this.GetComponent<Light>().intensity = SparkleTotal.Value;
-            this.GetComponent<Light>().range = SparkleTotal.Value / 10;
-            this.GetComponent<SphereCollider>().radius = SparkleTotal.Value / 10;
+            this.GetComponent<Light>().intensity = SparkleTotal.value;
+            this.GetComponent<Light>().range = SparkleTotal.value / 10;
+            this.GetComponent<SphereCollider>().radius = SparkleTotal.value / 10;
         }
         else
         {
@@ -32,12 +32,12 @@ public class LightBehaviour : MonoBehaviour
 
         if (lightStatus == true)
         {
-            SparkleTotal.Value -= lossRate * Time.deltaTime;
+            SparkleTotal.value -= lossRate * Time.deltaTime;
         }
     }
     private void lightSwitch()
     {
-        if (SparkleTotal.Value > 0)
+        if (SparkleTotal.value > 0)
         {
             lightStatus = !lightStatus;
             this.GetComponent<Light>().enabled = lightStatus;    
