@@ -586,6 +586,7 @@ GameObject:
   - component: {fileID: 1139014738}
   - component: {fileID: 1139014737}
   - component: {fileID: 1139014736}
+  - component: {fileID: 1139014740}
   m_Layer: 0
   m_Name: CIRCLEBLUE
   m_TagString: Untagged
@@ -607,7 +608,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: d0f1d99e4d7af2e41b61034a6851bab0, type: 2}
+        m_MethodName: ChangeSpriteRenderColor
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1139014738}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.SpriteRenderer, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1139014737
@@ -685,6 +697,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1139014740
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1139014735}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1364287905
 GameObject:
   m_ObjectHideFlags: 0
@@ -697,6 +722,7 @@ GameObject:
   - component: {fileID: 1364287908}
   - component: {fileID: 1364287907}
   - component: {fileID: 1364287906}
+  - component: {fileID: 1364287910}
   m_Layer: 0
   m_Name: CIRCLERED
   m_TagString: Untagged
@@ -718,7 +744,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 048fb8c1a363e2a49a9469bcbb2e2114, type: 2}
+        m_MethodName: ChangeSpriteRenderColor
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1364287908}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.SpriteRenderer, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1364287907
@@ -796,6 +833,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1364287910
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364287905}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1424984916
 GameObject:
   m_ObjectHideFlags: 0
@@ -987,11 +1037,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ce68cd439f10e44d820b516f44aa0d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  workSystemManagerObj: {fileID: 11400000, guid: 6db89e2d3ccb75d4c9bea2cb7fecb0a6,
-    type: 2}
-  otherIdObj: {fileID: 0}
 --- !u!114 &2085292083
 MonoBehaviour:
   m_ObjectHideFlags: 0
