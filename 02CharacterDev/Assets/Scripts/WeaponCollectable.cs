@@ -13,7 +13,7 @@ public class WeaponCollectable : Collectable
 
     public void Attack ()
     {
-        Debug.Log("Attack " + this);
+        Debug.Log("Attack ");
     }
 
     public void Equip()

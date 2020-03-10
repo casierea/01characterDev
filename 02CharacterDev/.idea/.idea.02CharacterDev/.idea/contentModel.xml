@@ -7,6 +7,7 @@
       <e p="02CharacterDev.sln" t="IncludeFlat" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Collectable.cs" t="Include" />
         <e p="CollectionScript.cs" t="Include" />
         <e p="DebuggerSimp.cs" t="Include" />
         <e p="Feb13" t="Include">
@@ -60,8 +61,7 @@
             <e p="TriggerColliderEvent.cs" t="Include" />
             <e p="TriggerEvents.cs" t="Include" />
           </e>
-          <e p="Collectable.cs" t="Include" />
-          <e p="Collections.cs" t="Include" />
+          <e p="Collection.cs" t="Include" />
           <e p="DropNow.cs" t="Include" />
           <e p="Feb11" t="Include">
             <e p="BehaviourID.cs" t="Include" />
@@ -70,6 +70,8 @@
           <e p="HorizontalPlatform.cs" t="Include" />
           <e p="LightBehaviour.cs" t="Include" />
           <e p="LightChanger.cs" t="Include" />
+          <e p="MonoBeahviours.cs" t="Include" />
+          <e p="OnTriggerBehaviour.cs" t="Include" />
           <e p="Patrol.cs" t="Include" />
           <e p="PlayerHealthScript.cs" t="Include" />
           <e p="Scripts" t="Include">
