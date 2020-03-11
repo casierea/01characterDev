@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< Updated upstream
 - path: Assets/Scenes/WeaponsMatchWork.unity
+=======
+- path: Assets/Scenes/MatchColorIdMarch5.unity
+>>>>>>> Stashed changes
   isLoaded: 1
   isActive: 1
