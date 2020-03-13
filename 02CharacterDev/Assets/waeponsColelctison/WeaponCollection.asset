@@ -12,11 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d731188a0a5cb7a40be82d096d7fa394, type: 3}
   m_Name: WeaponCollection
   m_EditorClassIdentifier: 
-  collectablesList:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 11400000, guid: 91383f08a2ff0c649a3a4afcad1bf2a7, type: 2}
-  - {fileID: 11400000, guid: 1952c5be3759e794da24869da4ffed69, type: 2}
-  - {fileID: 11400000, guid: a94c07b184fc2104f932e1d2712d93e6, type: 2}
-  currentCollectableNum: 0
+  collectablesList: []
+  currentCollectableNum: 1
