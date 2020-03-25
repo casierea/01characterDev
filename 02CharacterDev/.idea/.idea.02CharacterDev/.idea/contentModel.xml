@@ -78,6 +78,7 @@
             <e p="ActionCalls.cs" t="Include" />
             <e p="AnimaController.cs" t="Include" />
             <e p="AnimSetTrigger.cs" t="Include" />
+            <e p="AttachToParent.cs" t="Include" />
             <e p="BoolAnim.cs" t="Include" />
             <e p="CameraFollow.cs" t="Include" />
             <e p="DamageOnCollision.cs" t="Include" />
