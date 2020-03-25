@@ -83,6 +83,7 @@
             <e p="CameraFollow.cs" t="Include" />
             <e p="DamageOnCollision.cs" t="Include" />
             <e p="Debugger.cs" t="Include" />
+            <e p="Destroyer.cs" t="Include" />
             <e p="DestroyEvent.cs" t="Include" />
             <e p="FloatData.cs" t="Include" />
             <e p="FloatData1.cs" t="Include" />
