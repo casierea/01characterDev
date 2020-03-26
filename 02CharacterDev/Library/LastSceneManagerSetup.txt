@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/march13WeaponsWithButton.unity
+- path: Assets/Scenes/march24class.unity
   isLoaded: 1
   isActive: 1

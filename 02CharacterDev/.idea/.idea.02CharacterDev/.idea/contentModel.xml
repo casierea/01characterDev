@@ -7,8 +7,10 @@
       <e p="02CharacterDev.sln" t="IncludeFlat" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Collectable.cs" t="Include" />
-        <e p="CollectionScript.cs" t="Include" />
+        <e p="CollectionS" t="Include">
+          <e p="Collectable.cs" t="Include" />
+          <e p="CollectionScript.cs" t="Include" />
+        </e>
         <e p="DebuggerSimp.cs" t="Include" />
         <e p="Feb13" t="Include">
           <e p="MatchIDBehaviour.cs" t="Include" />
@@ -34,12 +36,23 @@
           <e p="string02.cs" t="Include" />
           <e p="TextB2.cs" t="Include" />
         </e>
+        <e p="GameAction" t="Include">
+          <e p="GameAction.cs" t="Include" />
+          <e p="GameActionHandler.cs" t="Include" />
+        </e>
         <e p="MarchMatchIDBehav.cs" t="Include" />
         <e p="pleasework" t="Include">
           <e p="TriggerEnte.cs" t="Include" />
         </e>
         <e p="Scripts" t="Include">
           <e p="Ai" t="Include">
+            <e p="AddPoints.cs" t="Include" />
+            <e p="Aibase.cs" t="Include" />
+            <e p="AiBehaviour.cs" t="Include" />
+            <e p="AiBrain.cs" t="Include" />
+            <e p="AiHunt.cs" t="Include" />
+            <e p="AiIdle.cs" t="Include" />
+            <e p="AntAiPAtrol.cs" t="Include" />
             <e p="BasicAi.cs" t="Include" />
           </e>
           <e p="AiPatrolH.cs" t="Include" />
@@ -88,8 +101,6 @@
             <e p="FloatData.cs" t="Include" />
             <e p="FloatData1.cs" t="Include" />
             <e p="FloatdataValue.cs" t="Include" />
-            <e p="GameAction.cs" t="Include" />
-            <e p="GameActionHandler.cs" t="Include" />
             <e p="ImageController.cs" t="Include" />
             <e p="ListObj.cs" t="Include" />
             <e p="MouseEvents.cs" t="Include" />
