@@ -38,7 +38,6 @@
         </e>
         <e p="GameAction" t="Include">
           <e p="GameAction.cs" t="Include" />
-          <e p="GameActionHandler.cs" t="Include" />
         </e>
         <e p="MarchMatchIDBehav.cs" t="Include" />
         <e p="pleasework" t="Include">
@@ -50,10 +49,9 @@
             <e p="Aibase.cs" t="Include" />
             <e p="AiBehaviour.cs" t="Include" />
             <e p="AiBrain.cs" t="Include" />
-            <e p="AiHunt.cs" t="Include" />
             <e p="AiIdle.cs" t="Include" />
-            <e p="AntAiPAtrol.cs" t="Include" />
             <e p="BasicAi.cs" t="Include" />
+            <e p="TriggerDamage.cs" t="Include" />
           </e>
           <e p="AiPatrolH.cs" t="Include" />
           <e p="CharacterMove" t="Include">
@@ -84,6 +82,7 @@
           <e p="LightBehaviour.cs" t="Include" />
           <e p="LightChanger.cs" t="Include" />
           <e p="MonoBeahviours.cs" t="Include" />
+          <e p="ObjHealth.cs" t="Include" />
           <e p="OnTriggerBehaviour.cs" t="Include" />
           <e p="Patrol.cs" t="Include" />
           <e p="PlayerHealthScript.cs" t="Include" />
