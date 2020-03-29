@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/WeaponsMatchWork.unity
+- path: Assets/Scenes/Words2AndTelport.unity
   isLoaded: 1
   isActive: 1

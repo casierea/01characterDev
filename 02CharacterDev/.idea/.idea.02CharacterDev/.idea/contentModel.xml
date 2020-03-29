@@ -9,9 +9,9 @@
       <e p="Assets" t="Include">
         <e p="CollectionS" t="Include">
           <e p="Collectable.cs" t="Include" />
-          <e p="CollectionScript.cs" t="Include" />
         </e>
         <e p="DebuggerSimp.cs" t="Include" />
+        <e p="destroyObject.cs" t="Include" />
         <e p="Feb13" t="Include">
           <e p="MatchIDBehaviour.cs" t="Include" />
           <e p="MathFunctions.cs" t="Include" />
