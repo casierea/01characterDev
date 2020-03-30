@@ -84,6 +84,7 @@
           <e p="MonoBeahviours.cs" t="Include" />
           <e p="ObjHealth.cs" t="Include" />
           <e p="OnTriggerBehaviour.cs" t="Include" />
+          <e p="OtherWeapon.cs" t="Include" />
           <e p="Patrol.cs" t="Include" />
           <e p="PlayerHealthScript.cs" t="Include" />
           <e p="Scripts" t="Include">
