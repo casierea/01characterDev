@@ -12,6 +12,8 @@
         </e>
         <e p="DebuggerSimp.cs" t="Include" />
         <e p="destroyObject.cs" t="Include" />
+        <e p="Dialog01.cs" t="Include" />
+        <e p="ExperStringListData.cs" t="Include" />
         <e p="Feb13" t="Include">
           <e p="MatchIDBehaviour.cs" t="Include" />
           <e p="MathFunctions.cs" t="Include" />
