@@ -7,9 +7,11 @@
       <e p="02CharacterDev.sln" t="IncludeFlat" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="AnthonyVector3Data.cs" t="Include" />
         <e p="CollectionS" t="Include">
           <e p="Collectable.cs" t="Include" />
         </e>
+        <e p="DataStorageBin.cs" t="Include" />
         <e p="DebuggerSimp.cs" t="Include" />
         <e p="destroyObject.cs" t="Include" />
         <e p="Dialog01.cs" t="Include" />
