@@ -47,6 +47,7 @@
         <e p="pleasework" t="Include">
           <e p="TriggerEnte.cs" t="Include" />
         </e>
+        <e p="Quit.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Ai" t="Include">
             <e p="AddPoints.cs" t="Include" />
