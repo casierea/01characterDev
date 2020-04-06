@@ -44,6 +44,7 @@
           <e p="GameAction.cs" t="Include" />
         </e>
         <e p="MarchMatchIDBehav.cs" t="Include" />
+        <e p="PauseMenu.cs" t="Include" />
         <e p="pleasework" t="Include">
           <e p="TriggerEnte.cs" t="Include" />
         </e>
