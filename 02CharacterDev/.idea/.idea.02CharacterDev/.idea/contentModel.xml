@@ -60,6 +60,7 @@
             <e p="TriggerDamage.cs" t="Include" />
           </e>
           <e p="AiPatrolH.cs" t="Include" />
+          <e p="BoolCheckIt.cs" t="Include" />
           <e p="CharacterMove" t="Include">
             <e p="BasicCharControl.cs" t="Include" />
             <e p="ControlCharacter.cs" t="Include" />
