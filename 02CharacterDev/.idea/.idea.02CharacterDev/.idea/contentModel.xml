@@ -126,6 +126,7 @@
             <e p="WaitAndDestroy.cs" t="Include" />
             <e p="WaitForTime.cs" t="Include" />
           </e>
+          <e p="StringListObj.cs" t="Include" />
           <e p="UseForce.cs" t="Include" />
           <e p="ValueManager.cs" t="Include" />
           <e p="Vector3Data.cs" t="Include" />
