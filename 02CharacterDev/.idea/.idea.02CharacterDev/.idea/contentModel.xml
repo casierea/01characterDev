@@ -93,6 +93,7 @@
           <e p="OtherWeapon.cs" t="Include" />
           <e p="Patrol.cs" t="Include" />
           <e p="PlayerHealthScript.cs" t="Include" />
+          <e p="SceneChange.cs" t="Include" />
           <e p="Scripts" t="Include">
             <e p="ActionCalls.cs" t="Include" />
             <e p="AnimaController.cs" t="Include" />
