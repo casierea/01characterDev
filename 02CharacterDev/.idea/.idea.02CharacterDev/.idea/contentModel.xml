@@ -85,6 +85,7 @@
             <e p="BehaviourID.cs" t="Include" />
             <e p="IntData.cs" t="Include" />
           </e>
+          <e p="Floating.cs" t="Include" />
           <e p="HorizontalPlatform.cs" t="Include" />
           <e p="LightBehaviour.cs" t="Include" />
           <e p="LightChanger.cs" t="Include" />
