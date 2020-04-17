@@ -59,6 +59,7 @@
             <e p="BasicAi.cs" t="Include" />
             <e p="TriggerDamage.cs" t="Include" />
           </e>
+          <e p="Ai.cs" t="Include" />
           <e p="AiPatrolH.cs" t="Include" />
           <e p="BoolCheckIt.cs" t="Include" />
           <e p="CharacterMove" t="Include">
@@ -87,6 +88,7 @@
           </e>
           <e p="Floating.cs" t="Include" />
           <e p="HorizontalPlatform.cs" t="Include" />
+          <e p="Instancer01.cs" t="Include" />
           <e p="LightBehaviour.cs" t="Include" />
           <e p="LightChanger.cs" t="Include" />
           <e p="MonoBeahviours.cs" t="Include" />
