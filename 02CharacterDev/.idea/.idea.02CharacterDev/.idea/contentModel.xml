@@ -60,6 +60,7 @@
             <e p="TriggerDamage.cs" t="Include" />
           </e>
           <e p="Ai.cs" t="Include" />
+          <e p="AiFollow.cs" t="Include" />
           <e p="AiPatrolH.cs" t="Include" />
           <e p="BoolCheckIt.cs" t="Include" />
           <e p="CharacterMove" t="Include">
@@ -82,6 +83,7 @@
           </e>
           <e p="Collection.cs" t="Include" />
           <e p="DropNow.cs" t="Include" />
+          <e p="Eyes.cs" t="Include" />
           <e p="Feb11" t="Include">
             <e p="BehaviourID.cs" t="Include" />
             <e p="IntData.cs" t="Include" />
