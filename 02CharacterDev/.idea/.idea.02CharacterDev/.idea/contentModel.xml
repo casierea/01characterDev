@@ -8,6 +8,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="AnthonyVector3Data.cs" t="Include" />
+        <e p="BossHealth.cs" t="Include" />
         <e p="BossNav.cs" t="Include" />
         <e p="CollectionS" t="Include">
           <e p="Collectable.cs" t="Include" />
