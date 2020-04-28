@@ -85,6 +85,7 @@
           </e>
           <e p="Collection.cs" t="Include" />
           <e p="DropNow.cs" t="Include" />
+          <e p="EnemyAiPArtol.cs" t="Include" />
           <e p="Eyes.cs" t="Include" />
           <e p="Feb11" t="Include">
             <e p="BehaviourID.cs" t="Include" />
@@ -95,6 +96,7 @@
           <e p="Instancer01.cs" t="Include" />
           <e p="LightBehaviour.cs" t="Include" />
           <e p="LightChanger.cs" t="Include" />
+          <e p="LightRobotBehav.cs" t="Include" />
           <e p="MonoBeahviours.cs" t="Include" />
           <e p="ObjHealth.cs" t="Include" />
           <e p="OnTriggerBehaviour.cs" t="Include" />
