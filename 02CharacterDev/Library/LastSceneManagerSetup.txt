@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Words2AndTelport.unity
+- path: Assets/Scenes/RobotShoot 1.unity
   isLoaded: 1
   isActive: 1
